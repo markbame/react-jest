@@ -1,0 +1,5 @@
+/* istanbul ignore next */"use strict";var cov_10qh6q6vo0 = function () {var path = "/root/jest/another-function.js",hash = "85cb9e8d03975d9ff88b23920c0dc6ec8e0adebb",global = new Function('return this')(),gcv = "__coverage__",coverageData = { path: "/root/jest/another-function.js", statementMap: { "0": { start: { line: 3, column: 2 }, end: { line: 3, column: 15 } }, "1": { start: { line: 5, column: 0 }, end: { line: 5, column: 21 } } }, fnMap: { "0": { name: "sum", decl: { start: { line: 2, column: 9 }, end: { line: 2, column: 12 } }, loc: { start: { line: 2, column: 19 }, end: { line: 4, column: 1 } }, line: 2 } }, branchMap: {}, s: { "0": 0, "1": 0 }, f: { "0": 0 }, b: {}, _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c" },coverage = global[gcv] || (global[gcv] = {});if (coverage[path] && coverage[path].hash === hash) {return coverage[path];}coverageData.hash = hash;return coverage[path] = coverageData;}();
+function sum(a, b) {/* istanbul ignore next */++cov_10qh6q6vo0.f[0];++cov_10qh6q6vo0.s[0];
+  return a + b;
+} /* istanbul ignore next */++cov_10qh6q6vo0.s[1];
+module.exports = sum;
